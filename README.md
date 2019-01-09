@@ -4,6 +4,8 @@ Environment for Visual Studio Code as per [Dustin Callaway: Debugging ES6 in vis
 
 Before launching debugger run `npm run compile` from terminal to transpile code from ES6 to ES5.
 
+Open any code in the `/src` folder with VSCode and debug by running `Launch Current File` from the debugger menu.
+
 `package.json` includes following npm dependencies:
 * babel-cli
 * babel-preset-es2015
