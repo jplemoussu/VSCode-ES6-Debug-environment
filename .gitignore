@@ -1,6 +1,5 @@
-node_modules/
-.compiled/
+node_modules
+.compiled
 yarn-error.log
 yarn.lock
-src/
 .env
