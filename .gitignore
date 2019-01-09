@@ -1,0 +1,6 @@
+node_modules/
+.compiled/
+yarn-error.log
+yarn.lock
+src/
+.env
