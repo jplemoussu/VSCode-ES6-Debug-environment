@@ -7,16 +7,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch main program",
-            "program": "${workspaceFolder}/src/main.js",
-            "outFiles": [ "${workspaceFolder}/.compiled/**/*.js" ]
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "Launch Current File",
+            "protocol": "inspector",
+			"name": "ES6 Debugger",
             "program": "${file}",
-            "outFiles": [ "${workspaceFolder}/.compiled/**/*.js" ]
+            "outFiles": [ "${workspaceRoot}/.compiled/**/*.js" ],
+            "preLaunchTask": "compile"
         }
     ]
 }
